@@ -1,9 +1,23 @@
 //complete this code
-class Person {}
+class Person {
 
-class Student extends Person {}
+	Person() {
+		name;
+		age;
+	}
+}
 
-class Teacher extends Person {}
+class Student extends Person {
+	function study() {
+		console.log(name + "is studying")
+	}
+}
+
+class Teacher extends Person {
+	function teach() {
+		console.log(name + "is teaching")
+	}
+}
 
 // Do not change the code below this line
 window.Person = Person;
